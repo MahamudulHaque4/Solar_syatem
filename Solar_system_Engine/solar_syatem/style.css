@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: black;
+}
+
+canvas {
+    display: block;
+}
+
+/* warp effects */
+#flash {
+    position: fixed;
+    inset: 0;
+    background: white;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.6s;
+}
+
+#warpTunnel {
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle, rgba(120, 200, 255, 0.15), transparent 60%);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.6s;
+}
